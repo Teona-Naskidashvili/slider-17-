@@ -1,8 +1,8 @@
-/* .slider{
+/* /* /* .slider{
     width: 1600px;
 
 } */
-.image-slider{
+/* .image-slider{
     max-width:  1300px;
     height: 600px;
     background-size: cover;
@@ -26,8 +26,7 @@
     border: none;
     cursor: pointer;
     /* text-shadow: 56px; */
-}
-.arow-left{
+/* .arow-left{
     left: 50px;
 }
 .arow-right{
@@ -64,4 +63,238 @@
 .body-color{
     background-color: antiquewhite;
 
+} */ 
+
+/* 123 */
+/* header */
+.body-color{
+    background-color: antiquewhite;
+
 }
+
+.hedersection{
+   background-color:orange;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    left: 50%;
+}
+/* slider */
+.image-slider{
+    max-width:  100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin: 0 auto;
+    
+}
+.image-slider::after{
+    content: " ";
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: block;
+    opacity: 40%;
+    position: relative;
+}
+.slider-div{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.arow-left{
+    left: 50px;
+}
+.arow-right{
+    right: 50px;
+}
+.leftarrow.rightarrow{
+    position: absolute;
+    /* width: 50px;
+    height: 50px; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 5px;
+    cursor: pointer;
+    
+  
+}
+.dots{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateY(-50%);
+    bottom: 15px;
+    z-index: 10;
+}
+.dot.active{
+    background-color: black;
+}
+
+/* get information from server */
+/* .posts{
+    background-color: #F39C12;
+    box-shadow: 15px 15px 10px grey;
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius:15px;
+    
+}
+.posts:hover{
+    color: aliceblue;
+    font-size: 25px;
+    max-width: 320px;
+    width: 100%;
+    height: 160px;
+    opacity: 90%;
+    box-shadow: 15px 15px 10px #B3B6B7;
+}
+.posts-wrapper{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.overlay{
+    position: fixed;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px 10px 60px 100px;
+    opacity: 90%;
+    background-color:black;
+    display: none;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    z-index: 20;
+}
+.dishInfo{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.active {
+    display: block;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 35px;
+    cursor: pointer;
+    color: red;
+}
+
+/* footer */
+/* .footer-div{ 
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-top: 60px;
+    background-color:black;
+    color: orange;
+    padding-top: 20px;
+}
+.workschedule{
+   margin-top: 20px;
+   text-align: center;
+}
+.schedule{
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.footerdiv1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.addres{
+    max-width: 250px;
+    height: 50px;
+    margin-top: 15px;
+    
+}
+
+.li1{
+    color: orange;
+}
+.fa-location-dot{
+   margin-top: 20px;
+   font-size: 80px;
+}
+/* .icons{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icone{
+    display: flex;
+    /* margin-top: 120px; */
+    /* padding: 15px;
+} */
+/* .fa-facebook-f, 
+.fa-instagram-square,
+.fa-youtube {
+    font-size: 30px;
+    text-align: center;
+    color: orange;   
+}
+.phone-icon{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+} */ 
+/* .fa-envelope,
+.fa-phone-volume{
+    margin-right: 10px;
+}
+.yticone{
+    margin-left: 10px;
+    margin-right: 10px;
+}  */
